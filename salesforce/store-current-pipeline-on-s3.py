@@ -19,7 +19,7 @@ def lambda_handler(event, context):
     
     
     #create connection to salesforce instance
-    sf = Salesforce(username='matthew@searchspring.com',password='*******************',security_token='api_key')
+    sf = Salesforce(username='************************',password='*******************',security_token='api_key')
     
     #query and return current pipeline data from Salesforce
     current_pipeline_query = '''
